@@ -1,0 +1,20 @@
+# Environment variables
+.env
+
+# MySQL
+.devcontainer/mysql
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
+# Django.Python Stack
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class

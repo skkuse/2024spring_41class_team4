@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  app:
+    container_name: dev-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspace:cached
+    depends_on:
+      - database
+    stdin_open: true
+    tty: true
+    # env_file: .env
+
+  database:
+    container_name: mysql
+    image: mysql:latest
+    ports:
+      - "3309:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+
+volumes:
+  database:

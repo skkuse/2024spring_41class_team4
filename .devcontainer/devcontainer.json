@@ -1,0 +1,19 @@
+{
+    "name": "team4",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "./.devcontainer/setup.sh",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "donjayamanne.githistory",
+                "eamodio.gitlens",
+                "mhutchie.git-graph",
+                "ms-python.python"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
