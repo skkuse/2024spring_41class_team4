@@ -76,11 +76,11 @@ WSGI_APPLICATION = "api.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        'NAME': "db",
+        'NAME': "binarytree",
         'USER' : "user",
         'PASSWORD' : "1234",
-        "HOST" : "127.0.0.1",
-        "PORT" : "3309",
+        "HOST" : "database",
+        "PORT" : "3306",
     }
 }
 
