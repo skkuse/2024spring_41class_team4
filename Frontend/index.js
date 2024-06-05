@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'code_input.html';
       } else {
         alert('Please login first.');
+        window.location.href = 'login.html';
       }
     });
   
@@ -69,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'ranking.html';
       } else {
         alert('Please login first.');
+        window.location.href = 'login.html';
       }
     });
   });
