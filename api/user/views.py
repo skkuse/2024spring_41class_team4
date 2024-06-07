@@ -30,7 +30,7 @@ def login(request):
 
     return Response({'message': 'Login Succeeded'}, status=status.HTTP_201_CREATED)
 
-@api_view(['POST'])
+@api_view(['GET'])
 def logout(request):
     auth.logout(request)
     return Response({'message': 'Logout Succeeded'}, status=status.HTTP_201_CREATED)
