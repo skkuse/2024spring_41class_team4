@@ -1,3 +1,4 @@
 Django==5.0.6
 mysqlclient
 djangorestframework
+drf-yasg

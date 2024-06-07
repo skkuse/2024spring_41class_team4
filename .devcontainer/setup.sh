@@ -5,4 +5,6 @@ set -x
 python3 -m pip install -r /workspace/api/requirements.txt
 
 # Django Setup
-# python3 /workspace/backend/manage.py migrate
+python3 /workspace/api/manage.py migrate
+
+git config --global --add safe.directory /workspace
