@@ -43,6 +43,12 @@
     #data_searched {
       border: 2px solid #2979f9;
     }
+    #search_item {
+      width: 50px; /* Ensure the dropdown button is wide enough */
+    }
+    .btn-view-code-input {
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
@@ -76,7 +82,7 @@
               <a class="nav-link" href="#">|</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="logout">LogOut</a>
+              <a class="nav-link" href="#" id="logout">Log Out</a>
             </li>
           </ul>
         </div>
@@ -117,6 +123,7 @@
         </thead>
         <tbody></tbody>
       </table>
+      <button class="btn btn-primary btn-view-code-input" onclick="viewCodeInput()">Code Input</button>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
