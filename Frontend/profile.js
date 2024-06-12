@@ -14,9 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.getElementById('user_id').textContent = user.ID;
-    document.getElementById('user_email').textContent = user.EMAIL || 'Not provided';
+    document.getElementById('user_email').textContent = user.EMAIL || 'test@gmail.com';
+    document.getElementById('user_email').href = "mailto:" + user.EMAIL || 'test@gmail.com';
     document.getElementById('user_level').textContent = `${user.LEVEL} level`;
-    document.getElementById('user_total_emission').textContent = `${user.TOTAL_EMISSION || 0} kg`;
+    document.getElementById('user_total_emission').textContent = `${user.CARBON || 0} g`;
 
     const profileImage = document.getElementById('profile_image');
     const level = user.LEVEL;

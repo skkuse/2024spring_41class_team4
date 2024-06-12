@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   
     signUpFormButton.addEventListener('click', () => {
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
+      const name = document.getElementById('user_name').value;
+      const email = document.getElementById('user_email').value;
       const user_id = document.getElementById('user_id').value;
-      const password = document.getElementById('password').value;
-      const password_confirm = document.getElementById('password_confirm').value;
+      const password = document.getElementById('user_pw').value;
+      const password_confirm = document.getElementById('user_pw_confirm').value;
   
       if (!name.length || !email.length || !user_id.length || !password.length || !password_confirm.length) {
         alert('Please fill out all fields');
