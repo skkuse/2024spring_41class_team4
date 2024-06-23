@@ -1,0 +1,57 @@
+/* styles.css */
+.container {
+    text-align: center;
+  }
+  .main-image {
+    margin: 50px 0;
+  }
+  .navbar-custom {
+    background-color: transparent;
+  }
+  .nav-link {
+    color: black;
+  }
+  .nav-link:hover {
+    color: blue;
+  }
+  .btn-container {
+    margin-top: 20px;
+  }
+  .btn-container a {
+    margin: 5px;
+    background-color: white;
+    color: #2979f9;
+    border: 2px solid #2979f9;
+    border-radius: 0;
+  }
+  .btn-container a:hover {
+    background-color: #2979f9;
+    color: white;
+    border: 2px solid #2979f9;
+  }
+  .code-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .code-input, .code-output {
+    border: 2px solid #2979f9;
+    padding: 20px;
+    width: 45%;
+  }
+  .btn-primary {
+    background-color: white;
+    color: #2979f9;
+    border: 2px solid #2979f9;
+    border-radius: 0;
+  }
+  .btn-primary:hover {
+    background-color: #2979f9;
+    color: white;
+    border: 2px solid #2979f9;
+  }
+  .results {
+    margin-top: 20px;
+  }
+  
